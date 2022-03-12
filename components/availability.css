@@ -1,0 +1,56 @@
+.statement {
+    margin-top: 50px;
+display: flex;
+justify-content: center;
+font-size: 40px;
+line-height: 1.5em;
+font-weight: bold;
+}
+
+.join-list {
+display: flex;
+justify-content: center;
+font-size: 30px;
+line-height: 1.5em;
+font-weight: bold;
+}
+
+.contact-info {
+background-color: #EFFBFE;
+margin: 40px;
+padding: 20px;
+font-size: 30px;
+color: #1515B3;
+justify-content: left;
+
+}
+
+.time-day {
+    display: flex;
+    background-color:#D8F2FF;
+    margin: 40px;
+    padding: 20px;
+    font-size: 30px;
+    color: #1515B3;
+    justify-content: space-between;   
+}
+
+.how-contact {
+    display: flex;
+    background-color: #C5E083;
+    margin: 40px;
+    padding: 20px;
+    font-size: 30px;
+    color: #1515B3;
+    justify-content: space-between;
+}
+
+#submit-button {
+height: 75px;
+width: 150px;
+background-color: #ffffff;
+font-size: 30px;
+color: #1515B3;
+margin-left: 40px;
+box-shadow: 10px 10px 10px gray;
+}
