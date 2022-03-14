@@ -13,6 +13,7 @@
 <body>
     <div class="header-container">
         <div class="left-column">
+            <div class="page-title">Availability</div>
             <div class="company-logo">
                 <img src="../assets/Garden Dynamics .png" alt="Garden Dynamics logo">
             </div>
@@ -35,25 +36,22 @@
     <div class="statement">Due to high demand for our services, new openings are limited.</div>
     <div class="join-list">Please provide your contact information to be notified of upcoming availability.</div>
     <div>
-        <form class="contact-info">
-            <label> First Name
-                <input type="text">
-            </label>
+        <form class="contact-info" action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
             <br>
 
-            <label> Last Name
-                <input type="text">
-            </label>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
             <br>
 
-            <label> Phone Number
-                <input type="text">
-            </label>
+            <label for="pnumber">Phone Number</label>
+            <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number..">
             <br>
 
-            <label> Email address
-                <input type="text" </label>
-                <br>
+            <label for="eaddress">Email address</label>
+            <input type="text" id="eaddress" name="emailaddress" placeholder="Your email address..">
+            <br>
         </form>
     </div>
 
@@ -94,14 +92,14 @@
     </form>
 
     <div>
-        <button id="submit-button">Submit</button>
+        <button id="submit-button" type="submit" value="Submit">Submit</button>
     </div>
 
     </form>
 
     <footer>
         <div>
-            <h6>Copyright 2022 Kim Sorensen, all rights reserved.</h6>
+            <h6>Copyright 2022 Kim Sorensen.</h6>
         </div>
     </footer>
 </body>

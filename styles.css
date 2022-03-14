@@ -16,6 +16,11 @@ width: 50vw;
 height: 100%;
     }
 
+    .page-title {
+      color: #1515B3;
+      font-size: 40px;
+  }
+
 .company-logo{
 display: flex;  
 align-items: center; 
@@ -52,7 +57,7 @@ transition: 1s;
   width: 50vw;
   height: 100%;
   object-fit: cover;
-  }
+    }
 
 .quote-bar {
 display: flex;
