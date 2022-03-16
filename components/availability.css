@@ -20,15 +20,14 @@ line-height: 1.5em;
 font-weight: bold;
 }
 
-.contact-info {
+ .contact-info {
     background-color: #EFFBFE;
-    margin: 50px 100px 20px 100px;
+    margin: 50px 500px 30px 500px;
     padding: 20px;
     font-size: 30px;
     color: #1515B3;
     justify-content: left;
-    box-sizing: border-box;
-}
+    }
 
 #submit-button {
 height: 75px;
@@ -37,7 +36,7 @@ background-color: #ffffff;
 font-size: 30px;
 color: #1515B3;
 box-shadow: 10px 10px 10px gray;
-margin-left: 100px;
+margin-left: 675px;
 }
 
 #submit-button:hover {
