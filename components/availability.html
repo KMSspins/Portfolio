@@ -38,7 +38,7 @@
     <div class="join-list">Please join our mailing list to be notified of upcoming availability.</div>
 
 
-    <?php if(isset ($_POST['submit'])) {
+    <!-- <?php if(isset ($_POST['submit'])) {
             $to = "dynamicgardener@gmail.com";
             $from = $_POST[ 'email' ];
             $first_name = $_POST['first_name'];
@@ -47,7 +47,7 @@
             $message = $first_name . " " .
            $last_name . " wrote the following:" . "\n\n" .
            $_POST[ 'message']; $headers = "From:" . $from; $headers2 = "From:" . $to; mail($to,$subject,$message,$headers);
-        }?>
+        }?> -->
 
 
     <!-- <?php
@@ -78,24 +78,24 @@
         <i class="fa-solid fa-envelope fa-8x fa-bounce"></i>
     </div> -->
 
-    <div class="form">
+    <div class="contact-info">
 
-        <form class="contact-info" action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <br>
+        <!-- form class="contact-info" action="/action_page.php">  -->
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <br>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <br>
 
-            <label for="pnumber">Phone Number</label>
-            <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number..">
-            <br>
+        <label for="pnumber">Phone Number</label>
+        <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number..">
+        <br>
 
-            <label for="eaddress">Email address</label>
-            <input type="text" id="eaddress" name="emailaddress" placeholder="Your email address..">
-            <br>
+        <label for="eaddress">Email address</label>
+        <input type="text" id="eaddress" name="emailaddress" placeholder="Your email address..">
+        <br>
         </form>
     </div>
 
