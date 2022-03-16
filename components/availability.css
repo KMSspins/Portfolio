@@ -21,33 +21,13 @@ font-weight: bold;
 }
 
 .contact-info {
-background-color: #EFFBFE;
-margin: 40px;
-padding: 20px;
-font-size: 30px;
-color: #1515B3;
-justify-content: left;
-
-}
-
-.time-day {
-    display: flex;
-    background-color:#D8F2FF;
-    margin: 40px;
+    background-color: #EFFBFE;
+    margin: 50px 100px 20px 100px;
     padding: 20px;
     font-size: 30px;
     color: #1515B3;
-    justify-content: space-between;   
-}
-
-.how-contact {
-    display: flex;
-    background-color: #C5E083;
-    margin: 40px;
-    padding: 20px;
-    font-size: 30px;
-    color: #1515B3;
-    justify-content: space-between;
+    justify-content: left;
+    box-sizing: border-box;
 }
 
 #submit-button {
@@ -56,12 +36,17 @@ width: 150px;
 background-color: #ffffff;
 font-size: 30px;
 color: #1515B3;
-margin-left: 40px;
 box-shadow: 10px 10px 10px gray;
+margin-left: 100px;
 }
 
-input[type=text], select{
-    width: 100%;
+#submit-button:hover {
+    color: #88A201;
+    background-color: #D8F2FF;
+    }
+
+input[type=text], select {
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -71,7 +56,7 @@ input[type=text], select{
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 75%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -81,9 +66,4 @@ input[type=submit] {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
-    background-color: #ffffff;
-  }
-  
-  div {
-    border-radius: 5px;
+ 
