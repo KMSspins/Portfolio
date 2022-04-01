@@ -1,14 +1,12 @@
 .bottom-page {
     display: flex;
     align-items: center;
-    height: 50vh;
+    height: 30vh;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
-    margin-top: 80px;
-    margin-bottom: 60px;
-    margin-right: 40px;
-    padding: 60px;
-   
+    margin-top: 20px;
+    margin-bottom: 10px;
+       
    }
 
    .quote {
@@ -16,12 +14,14 @@
        margin-right: 10px;
        align-items: center;
        padding-right: 20px;
-       line-height: 1.5em;
+       padding-left: 20px;
        color: #1515B3;
     }
        
     .picture {
        border-radius: 50%;
+       margin-top: 50px;
+       height: 200px;
        box-shadow: 10px 10px 10px #88A201;
     }
 
@@ -29,10 +29,16 @@
    .about-paragraph {
       color: black;
       font-family: 'Helvetica', serif;
-      padding-left: 80px;
-      line-height: 1.5em;
-      font-size: 15px;
-      margin-top: 20px;
+      padding-left: 60px;
+      font-size: 12px;
+      margin-top: 10px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+   }
+
+   footer{
+      text-align: left;
+      padding-left: 75px;
    }
    
    

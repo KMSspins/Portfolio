@@ -1,29 +1,25 @@
 .list {
 display: flex;
-align-items: center;
+align-items: top;
 justify-content: center;
 font-family: 'Arial', sans-serif;
 font-weight: bold;
-margin-right: 30px;
-margin-top: 20px;
-padding: 10px 20px;
 color: #1515B3;
-line-height: 1.5em;
-font-size:40px;
+font-size: 20px;
 }
 
 
 .free-estimate {
+    display: flex;
     font-family: 'Helvetica', serif;
-    font-size: 40px;
+    font-size: 15px;
    justify-content: center;
-   margin-left: 150px;
-    }
+        }
 
 
 .serving {
     display: flex;
-font-size: 25px;
+font-size: 12px;
 font-family: 'Helvetica', serif;
 justify-content: center;
 }
