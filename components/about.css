@@ -1,7 +1,7 @@
 .bottom-page {
    display: flex;
    align-items: center;
-   height: 30vh;
+   height: 50vh;
    font-family: 'Arial', sans-serif;
    font-weight: bold;
    margin-top: 1.5rem;
@@ -31,16 +31,26 @@
    font-family: 'Helvetica', serif;
    padding-left: 4rem;
    font-size: .75rem;
-   margin-top: 1rem;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
-   padding-right: 3rem;
+   margin-top: .5rem;
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   padding-right: 1rem;
 }
 
 footer {
    text-align: left;
    padding-left: 75px;
+
 }
+
+
+@media screen and (max-width: 920px) {
+
+   .nav-link {
+      font-size: 1rem;
+   }
+}
+
 
 @media screen and (max-width: 542px) {
    .bottom-page {
@@ -64,8 +74,13 @@ footer {
       padding-left: .75rem;
       margin-top: 1rem;
       padding-top: 0;
-      padding-bottom: .50rem;
+      padding-bottom: 1rem;
       font-size: .45rem;
 
    }
+
+   footer {
+      font-size: .50rem;
+   }
+
 }

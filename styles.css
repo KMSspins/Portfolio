@@ -92,6 +92,14 @@ footer {
   padding-right: 7rem;
 }
 
+@media screen and (max-width: 920px) {
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+}
+
 @media screen and (max-width: 542px) {
   .header-picture {
     display: none;
@@ -125,15 +133,4 @@ footer {
 
   footer {
     text-align: center;
-    font-size: 1rem;
-    padding-right: 0rem;
-  }
-}
-
-@media screen and (max-width: 920px) {
-
-  .nav-link {
-    font-size: 1rem;
-  }
-
-}
+    font-si
