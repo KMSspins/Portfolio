@@ -13,7 +13,7 @@
 
 .contact-info {
     background-color: #EFFBFE;
-    margin: 1rem 30rem 1rem 30rem;
+    margin: 1rem 20rem 1rem 20rem;
     padding: 1rem;
     font-size: .75rem;
     color: #1515B3;
@@ -27,7 +27,7 @@
     font-size: 1rem;
     color: #1515B3;
     box-shadow: 10px 10px 10px gray;
-    margin-left: 44rem;
+    margin-left: 28rem;
     margin-bottom: 0;
 }
 
@@ -58,6 +58,7 @@
         margin-left: 25rem;
         margin-top: 1rem;
     }
+
 }
 
 @media screen and (max-width: 542px) {

@@ -96,6 +96,12 @@ footer {
 
   .nav-link {
     font-size: 1rem;
+    padding-right: .25rem;
+    padding-left: .25rem;
+  }
+
+  footer {
+    font-size: .5rem;
   }
 
 }
@@ -123,8 +129,8 @@ footer {
 
   .nav-link {
     font-size: 1.25rem;
-    padding-right: 0rem;
-    padding-left: 0rem;
+    padding-right: .25rem;
+    padding-left: .25rem;
   }
 
   .picture-bar {
